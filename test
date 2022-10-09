@@ -1,0 +1,7 @@
+echo "# fuzzy-couscous" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:battlecry-miku/fuzzy-couscous.git
+git push -u origin master
